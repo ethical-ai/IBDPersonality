@@ -2,8 +2,6 @@
 
 class Game:
 
-	grid = []
-
 	'''
 	Construct a game by takes in payoffs for each cell
 	Parameter:  v1, v2, v3, v4 are vectors that contain payoffs of both players.
@@ -19,4 +17,10 @@ class Game:
 	'''
 	def getPayOffs(self, decision1, decision2):
 		return self.grid[decision1][decision2]
+
+	''' 
+	Returns the grid 
+	'''
+	def grid(self):
+		return self.grid
 
