@@ -12,7 +12,3 @@ class RandomPersonality:
 		else: 
 			return randint(2,3)
 
-
-
-rad = RandomPersonality(1)
-print(rad.play())
