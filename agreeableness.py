@@ -7,13 +7,10 @@ class Agreeableness:
 
 	#player with agreeableness personality always chooses the best outcome
 	def play(self, game):
-		self.game = game
-	
-
-	def bestOutcome(self, game):
 		strategy = game.bestOutcome()
 		if self.player = 1:
 			return strategy[0]
 		else:
 			return strategy[1]
+
 
