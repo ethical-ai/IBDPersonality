@@ -14,7 +14,5 @@ class RandomPersonality:
 
 
 
-
-
 rad = RandomPersonality(1)
 print(rad.play())
