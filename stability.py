@@ -10,9 +10,9 @@ class Stability:
 	#  alwyas confess
 	def play(self, player):
 		if self.player == 1:
-			return 1
+			return 2
 		else: 
-			return 3
+			return 4
 
 
 
