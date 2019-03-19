@@ -5,11 +5,12 @@ An open player might switch strategies often in order to attempt a better result
 
 Our program sets up a prisoner's dilemma game with the following board, with 1, 2, 3, and 4 representing the vectors with the payoffs of both players:
 
-		Player 1	
-		    D	  C
-player  D|  1  |  2  |
-   2    C|  3  |  4  |
-   
+            |  P1   |
+            |   C   |   D  
+      P2  C |   1   |   2  
+          D |   3   |   4  
+
+ 
 When the iterated game is run, each player's payoffs will be calculated every round and added together to get a final score.
 
 ## Getting Started
