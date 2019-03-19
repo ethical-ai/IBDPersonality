@@ -1,5 +1,5 @@
 from random import randint
-class Openess:
+class Openness:
 
 	# contruct a random player with specified number of player
 	def __init__(self, player):
