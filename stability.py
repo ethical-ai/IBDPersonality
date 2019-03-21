@@ -8,7 +8,7 @@ class Stability:
 		self.player = player
 
 	#  alwyas confess
-	def play(self, player):
+	def play(self):
 		if self.player == 1:
 			return 2
 		else: 
