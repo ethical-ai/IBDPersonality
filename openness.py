@@ -8,7 +8,7 @@ class Openness:
 	#random player always returns a random number between 0 and 1
 	def play(self):
 		if self.player == 1:
-			return randint(0, 1)
+			return randint(1, 2)
 		else: 
-			return randint(2,3)
+			return randint(3,4)
 
