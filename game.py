@@ -43,10 +43,10 @@ class Game:
 		loc = sumList.index(m)
 
 		if loc == 0:
-			return [1,1]
+			return [1,3]
 		elif loc == 1:
-			return [2,1]
+			return [2,3]
 		elif loc == 2:
-			return [2,1]
+			return [1,4]
 		else:
-			return [2,2]
+			return [2,4]
