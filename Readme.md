@@ -24,11 +24,7 @@ Our simulation runs on Python.
 
 ## Running the tests
 
-...
-
-## Built With
-
-* [Sublime](https://www.sublimetext.com/) - The Python editor used.
+See test.py
 
 ## Authors
 
